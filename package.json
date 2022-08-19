@@ -1,0 +1,28 @@
+{
+  "name": "midi-logger",
+  "version": "1.0.0",
+  "description": "A software that listens on all available Midi-Ports and logs them into json files",
+  "main": "index.js",
+  "scripts": {
+    "startup": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MIDI-Logger"
+  },
+  "keywords": [
+    "MIDI",
+    "Logger",
+    "Node.js"
+  ],
+  "author": "ScheerleJo",
+  "license": "MIT",
+  "dependencies": {
+    "easymidi": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "nodemon": "^2.0.19"
+  }
+}
